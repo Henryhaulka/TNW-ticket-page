@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.lap{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    font-family: monospace;
+    font-size: x-large;
+    padding: 0;margin: 0;
+
+}
+nav a {
+    color:black;
+    opacity: 0.7;
+    text-decoration: none;
+    
+}
+.star{
+display: inline;
+position: relative;
+}
+.boy{
+    visibility: hidden;
+    position: absolute;
+    width: 300px;
+    display: block;
+    text-align: center;
+
+}
+.star:hover .boy{
+    visibility: visible;
+    background-color: black;
+    padding: 7px;
+    
+   
+}
+.boy a{
+    color: white; }
+
+.boy a:hover{
+    color: white; }
+nav a:hover{
+    color:black;
+    opacity: 1;
+    text-decoration: none;
+    
+}
+.aba a{
+    color: white;
+    opacity: 0.7;
+}
+.aba a:hover{
+    color: white;
+    opacity: 1;
+}
+
+.aba  {
+    visibility: hidden;
+    position: absolute;
+    background-color: black;
+   
+
+}
+
+   
+.abo:hover .aba{
+    visibility: visible;
+    padding: 10px;
+    width: 200px;
+}
+.abo{
+display: inline-block;
+position: relative;
+
+}
+.ear{
+    background-color: black;padding-bottom: 2px;
+    padding-left: 70px;
+    position: relative;
+}
+ .ear a {
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+}
+.ear a:hover {
+    opacity: 1;
+    text-decoration: none;
+    color: white;
+}
+.fan{
+    float: right; padding-top: 5px;background-color:  rgb(27, 216, 191); padding: 10px; text-align: center; border-radius: 5px;
+}
+.fan:hover{
+    background-color:  rgb(100, 5, 100);
+}
+.do{
+    float: right
+}
+.btn.bank {
+    background-color:  rgb(27, 216, 191);
+}
+.btn.bank:hover {
+    background-color: rgb(100, 5, 100);
+}
+.mouth{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+input[type="checkbox"]:checked{
+    background-color: white;
+    color: black;
+}
+
+    
+    label{
+        color: white;
+        margin-left: 20px;
+        margin-top: 7px;
+    }
+    .rat{
+        border-right: 1px solid rgb(27, 216, 191);
+        margin-left: 2%;
+    }
+    .phone{
+        text-align: center;
+    
+    }
+    .two{
+    margin-left: 5%;
+    }
+
+
+@media only screen and (max-width:900px) {
+    .fan{
+        background-color:  rgb(27, 216, 191);
+        width: 100%;
+        margin: auto;
+        float: none;
+        margin-top: 10px;
+    }
+    .fan:hover{
+        background-color:  rgb(100, 5, 100);}
+    .do{
+        float: none;
+        width: 100%;
+    }
+    .mouth {
+        margin-top: 15px;
+        
+    }
+    .rat{
+        border-right: none;
+        margin-left: 10px;
+    }
+    .lap{
+        display: block;
+        
+    }
+    .top{
+        text-align: center;
+    }
+    .two{
+        margin-left: 10px;
+    }
+    
+}
