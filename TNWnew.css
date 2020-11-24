@@ -83,7 +83,7 @@ position: relative;
 .ear{
     background-color: black;padding-bottom: 2px;
     padding-left: 70px;
-    position: relative;
+    
 }
  .ear a {
     color: white;
@@ -139,9 +139,25 @@ input[type="checkbox"]:checked{
     .two{
     margin-left: 5%;
     }
+    .comb{
+        display: none;
+    }
+    .nose {
+        display:block;
+background-color: white;
+    
+    }
+    .blade{
+        height: 100px; width: 300px;
+    }
+    .chief{
+        font-size: large;
+        display: flex;
+        margin: 10px;
+    }
 
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:596px) {
     .fan{
         background-color:  rgb(27, 216, 191);
         width: 100%;
@@ -149,6 +165,31 @@ input[type="checkbox"]:checked{
         float: none;
         margin-top: 10px;
     }
+    .chief{
+        display: flex;font-size: small
+    }
+    .nose{
+        display: none;
+        
+    }
+    .ear{
+        display: inline-block;
+        
+    }
+    .blade{
+        width: 200px;
+    }
+    .comb{
+        display: block;
+        height: 40px;
+        background-color: white;
+        padding: 5px;
+        padding-right: 3%;
+        width: 100%;
+        
+    }
+    
+    
     .fan:hover{
         background-color:  rgb(100, 5, 100);}
     .do{
